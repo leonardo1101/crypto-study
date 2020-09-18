@@ -21,7 +21,6 @@ def caeser_encrypt(plain_text, key):
 
 def caeser_decrypt(cipher_text, key):
     plain_text = ''
-    plain_text = plain_text.upper()
     alphabet_size = len(ALPHABET)
 
     for c in cipher_text:
