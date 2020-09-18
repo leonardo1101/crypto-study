@@ -17,5 +17,5 @@ def caeser_brute_force(cipher_text):
         print("Using the key {0}, the plaintext is {1}".format(key, plain_text))
 
 if __name__ == "__main__":
-    cipher_text = sys.argv[1]
+    cipher_text = " ".join(sys.argv[1:])
     caeser_brute_force(cipher_text)
